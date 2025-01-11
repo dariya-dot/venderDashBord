@@ -1,13 +1,11 @@
 {
   "name": "dashbord",
-  "homepage": "https://dariya-dot.github.io/venderDashBordf",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy":"gh-pages -d dist ",
+    
     "dev": "vite",
    
     
