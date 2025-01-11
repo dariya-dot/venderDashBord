@@ -1,7 +1,7 @@
 import React  from 'react'
 import NavBar from '../components/NavBar'
 import SideBar from '../components/SideBar'
-import {Login}  from '../components/forms/login'
+import Login from '../components/Login'
 import { Resister } from '../components/forms/Resister'
 import { Addfirm } from '../components/forms/Addfirm'
 import Addproduct from '../components/forms/Addproduct'
@@ -118,8 +118,8 @@ const Landingpage = () => {
         <div className="collectionSection"  >
         <SideBar showFirmHandler={showFirmHandler} showProductHandler={showProductHandler} showallproducthandler={showallproducthandler} 
         addFirmTitle={addFirmTitle} />
-         
-        {showLogin && <Login showwelcomeHandler={showwelcomeHandler}/>}
+         {showLogin && <Login showwelcomeHandler={showwelcomeHandler}/>}
+        {/* {showLogin && < Login/>} */}
         {resister && <Resister showLoginHandler={showLoginHandler}/> }
         {firm && showLogout &&<Addfirm/> }
         {product && showLogout &&<Addproduct /> }
