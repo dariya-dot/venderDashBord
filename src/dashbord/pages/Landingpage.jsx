@@ -1,7 +1,7 @@
 import React  from 'react'
 import NavBar from '../components/NavBar'
 import SideBar from '../components/SideBar'
-import Login from '../components/Login'
+import Login from '../components/forms/Login'
 import { Resister } from '../components/forms/Resister'
 import { Addfirm } from '../components/forms/Addfirm'
 import Addproduct from '../components/forms/Addproduct'
