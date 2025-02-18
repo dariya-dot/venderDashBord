@@ -25,7 +25,7 @@ export const Login = ({showwelcomeHandler}) => {
         
        console.log(data)
        
-      
+  
        localStorage.setItem("Logintoken",data.token)
        localStorage.setItem('venderId',data.venderId)
        localStorage.setItem('venderName',data.venderName)

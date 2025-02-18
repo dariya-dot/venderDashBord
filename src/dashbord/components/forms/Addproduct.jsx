@@ -78,7 +78,7 @@ const Addproduct = ({showProductHandler}) => {
             <label htmlFor="productname"> Product name </label>
             <input type="text" value={productName}  onChange={(e)=>{setProductName(e.target.value)}} id="firmname" /><br />
             <label htmlFor="price">Price</label>
-            <input type="text" value={price} onChange={(e)=>{setPrice(e.target.value)}} id='price'/><br />
+            <input type="number" value={price} onChange={(e)=>{setPrice(e.target.value)}} id='price'/><br />
 
             <div className="category">
                 <label htmlFor="">Category:</label>
